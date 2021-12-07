@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "ShoppingCart",
+    "owner":"abnoribeiro",
+    "slug": "ShoppingCart",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/shopping.png",
+    "splash": {
+      "image": "./src/assets/shopping.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/shopping.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.brainee.doyouknow",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./src/assets/shopping.png"
+    }
+  }
+}
